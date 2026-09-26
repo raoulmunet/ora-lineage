@@ -46,6 +46,12 @@ CRM.CUSTOMERS.customer_name -> DWH.CUSTOMER_DIM.customer_name
 
 Column lineage is deliberately conservative. Complex expressions, PL/SQL dynamic SQL, synonyms, view expansion and metadata-dependent resolution are not guessed.
 
+## Visual demo
+
+A static visual preview is included in [`docs/index.html`](docs/index.html).
+
+To publish it with GitHub Pages: **Settings → Pages → Deploy from a branch → `main` → `/docs`**. The repository is already prepared with `docs/.nojekyll`.
+
 ## Oracle Dev Tools family
 
 This repository is part of the **Oracle Dev Tools** suite: small, composable developer utilities designed around Oracle Database 19c, 23ai and 26ai.
